@@ -1,0 +1,8 @@
+# Large satellite image files exceeding GitHub's 100MB limit
+*.tif
+*.tiff
+
+# Python & Jupyter cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

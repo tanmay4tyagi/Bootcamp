@@ -10,7 +10,7 @@ An integrated multimodal AI system combining all core competencies taught throug
 - **Module 1: Machine Learning & Predictive Analytics** — Customer purchase prediction with Decision Tree Classification, EDA scatter/distribution plots, train-test splitting, confusion matrix, and visual tree logic graph.
 - **Module 2: Deep Learning Image Classification (CNN)** — Convolutional Neural Network built with TensorFlow/Keras using Conv2D, MaxPooling2D, Flatten, Dense, and Dropout, with full loss/accuracy epoch diagnostic curves.
 - **Module 3: Real-Time Object Detection & Live Counting (YOLOv8)** — Live webcam object detection and visitor counting powered by Ultralytics YOLOv8 Nano (`yolov8n.pt`) with Windows DirectShow backend, auto camera index detection, and overlay counter.
-- **Module 4: Natural Language Processing & Sentiment Word Cloud** — Text corpus analysis with NLTK tokenization, stopword removal, frequency distribution analysis via `Counter`, and high-resolution Word Cloud generation.
+- **Module 4: Automated Visual Quality & Defect Inspection Pipeline (Computer Vision)** — Industrial quality assurance system utilizing Gaussian smoothing, Canny edge gradient detection, morphological closing and dilation, contour extraction, anomaly localization, and an automated PASS/REJECT decision engine with defect telemetry.
 
 ---
 
@@ -18,7 +18,7 @@ An integrated multimodal AI system combining all core competencies taught throug
 
 | File / Folder | Description |
 | :--- | :--- |
-| **`Final_Project_Capstone.ipynb`** | **⭐ Capstone Project:** Unified Multimodal AI system (Decision Tree + CNN + YOLOv8 + Word Cloud). |
+| **`Final_Project_Capstone.ipynb`** | **⭐ Capstone Project:** Unified Multimodal AI system (Decision Tree + CNN + YOLOv8 + Visual Defect Inspection Pipeline). |
 | **`Day_1_Assignment_1.ipynb`** | Day 1 fundamentals: Python basics, string manipulations, lists, loops, and random number operations. |
 | **`Day_2.ipynb`** | Day 2 concepts: NumPy arrays, statistics (mean, std), Matplotlib wave plotting, 2D array generation, and Pandas DataFrames. |
 | **`Day_3.ipynb`** | Day 3 Machine Learning: Decision Tree Classification using Scikit-Learn, data visualization of student patterns, train-test splitting, and model training. |

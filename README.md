@@ -22,7 +22,7 @@ An integrated multimodal AI system combining all core competencies taught throug
 | **`Day_1_Assignment_1.ipynb`** | Day 1 fundamentals: Python basics, string manipulations, lists, loops, and random number operations. |
 | **`Day_2.ipynb`** | Day 2 concepts: NumPy arrays, statistics (mean, std), Matplotlib wave plotting, 2D array generation, and Pandas DataFrames. |
 | **`Day_3.ipynb`** | Day 3 Machine Learning: Decision Tree Classification using Scikit-Learn, data visualization of student patterns, train-test splitting, and model training. |
-| **`Day_4.ipynb`** | Day 4 Deep Learning & Computer Vision: OpenCV transformations, CNN image classification, YOLOv8 live object counting, and NLTK Word Cloud visualization. |
+| **`Day_4.ipynb`** | Day 4 Deep Learning & Computer Vision: OpenCV transformations, CNN image classification, and YOLOv8 real-time live object counting. |
 | **`Assignment_2.ipynb`** | Assignment 2 covering: <br>1. Generating experiment datasets to CSV (`khubh_mela_data.csv`)<br>2. 2D random data generation with NumPy (`sample_2d_data.csv`)<br>3. Data cleaning in Pandas using Regular Expressions (RegEx)<br>4. Plotting a Sine Wave with Matplotlib |
 | **`Assignment_3.ipynb`** | Assignment 3: Linear Regression (power prediction) and K-Means Clustering on the Marvel Cinematic Universe dataset. |
 | **`image_editor.py`** | **⭐ Image Editing Program:** Standalone OpenCV Python suite executing 12 image transformations and generating portfolio collage. |
@@ -46,10 +46,9 @@ An integrated multimodal AI system combining all core competencies taught throug
 - **Language:** Python 3
 - **Numerical Computing:** [NumPy](https://numpy.org/)
 - **Data Manipulation & Cleaning:** [Pandas](https://pandas.pydata.org/) (including RegEx string methods)
-- **Data Visualization:** [Matplotlib](https://matplotlib.org/), [WordCloud](https://github.com/amueller/word_cloud)
+- **Data Visualization:** [Matplotlib](https://matplotlib.org/)
 - **Machine Learning:** [Scikit-Learn](https://scikit-learn.org/) (`DecisionTreeClassifier`, `LinearRegression`, `KMeans`, `train_test_split`, `metrics`, `plot_tree`)
 - **Deep Learning & Computer Vision:** [OpenCV](https://opencv.org/) (`cv2`), [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
-- **Natural Language Processing:** [NLTK](https://www.nltk.org/) (`word_tokenize`, `stopwords`)
 - **Environment:** Jupyter Notebooks (`.ipynb`)
 
 ---
@@ -66,7 +65,7 @@ To run these notebooks locally:
 
 2. **Install required dependencies:**
    ```bash
-   pip install numpy pandas matplotlib scikit-learn opencv-python tensorflow keras ultralytics nltk wordcloud pillow
+   pip install numpy pandas matplotlib scikit-learn opencv-python tensorflow keras ultralytics pillow
    ```
 
 3. **Launch Jupyter Notebook:**
@@ -88,7 +87,7 @@ To run these notebooks locally:
 - **Decision Trees:** Supervised learning using `DecisionTreeClassifier` on student performance metrics.
 - **Pipeline:** Feature selection, train-test splitting, model fitting, and evaluation metrics.
 
-### 🔹 Day 4: Deep Learning, Computer Vision & NLP
+### 🔹 Day 4: Deep Learning & Computer Vision
 - **OpenCV Image Processing:** Image loading (`cv2.imread`), dimensions checking, resizing (`cv2.resize`), flipping (`cv2.flip`), and cropping.
 - **Convolutional Neural Networks (CNN):**
   - Image data sanitization and preprocessing with PIL.
@@ -97,8 +96,3 @@ To run these notebooks locally:
   - Pre-trained lightweight YOLOv8 Nano model (`yolov8n.pt`).
   - Windows webcam connection with DirectShow (`cv2.CAP_DSHOW`) and device fallback.
   - Real-time frame annotation, object counting overlay, and safe hardware cleanup.
-- **Word Cloud Generation (NLP):**
-  - Tokenization using NLTK `word_tokenize`.
-  - Stopwords removal and punctuation filtering.
-  - Word frequency distribution with `collections.Counter`.
-  - Inline Word Cloud rendering using `wordcloud` and `matplotlib.pyplot`.
